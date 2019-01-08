@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="secondary">#D80027</color>
+
+
+    <color name="dark_primary">#354954</color>
+    <color name="bg_primary">#edf0f2</color>
+    <color name="bg_accent">#d2dbe0</color>
+
+
+    <!--color untuk gradient tansition-->
+
+    <color name="primary">#117cf0</color>
+    <color name="background">#f7f7f7</color>
+    <color name="orange">#f95d3f</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#17c785</color>
+
+
+    <color name="black_gradient_1">#2e2f41</color>
+    <color name="black_gradient_2">#21212d</color>
+</resources>

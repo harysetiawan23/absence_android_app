@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "510223252481",
+    "firebase_url": "https://program-absen.firebaseio.com",
+    "project_id": "program-absen",
+    "storage_bucket": "program-absen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510223252481:android:669ef719a72a4611",
+        "android_client_info": {
+          "package_name": "com.example.harry.facialabsence"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510223252481-lnccl01c4h31c8d2f3eil0g9qlcct126.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.harry.facialabsence",
+            "certificate_hash": "b8f2fc085c66501bbfebca83785c226b185be8a7"
+          }
+        },
+        {
+          "client_id": "510223252481-5k15te7i1a2nunsebm70fpqaqidv9m31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxLnAQfhuNIqKQ5xO0muWUKiUvbeNoT-w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510223252481-5k15te7i1a2nunsebm70fpqaqidv9m31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.harry.facialabsence.ScrollingActivity">
+
+    <item
+        android:id="@+id/alasan_tidak_hadir"
+        android:icon="@drawable/ic_delete"
+        android:title=""
+        app:showAsAction="always" />
+
+    <item
+        android:title=" "
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/all_subject"
+        android:icon="@drawable/ic_squares"
+        android:title=""
+        app:showAsAction="always" />
+</menu>

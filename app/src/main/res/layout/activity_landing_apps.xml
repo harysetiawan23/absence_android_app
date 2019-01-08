@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/landing_scrool_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_primary"
+    tools:context=".LandingApps">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:id="@+id/schedule_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/upcoming_event"
+        android:nestedScrollingEnabled="false"
+        android:orientation="vertical"
+        android:scrollbars="none" />
+
+
+    <FrameLayout
+        android:id="@+id/toolbar_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_primary">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+
+                android:fontFamily="@font/google_sans_medium"
+                android:text="Schedule"
+                android:textColor="@color/white" />
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>
